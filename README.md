@@ -1,6 +1,7 @@
 # FB_Bot
 
-<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/c5083396-aab4-44c5-85df-5f00bfda34a1" />
+<img width="900" height="900" alt="image" src="https://github.com/user-attachments/assets/535ff232-5f4b-4a4d-8b69-56ac0e25b31b" />
+
 
 Данный бот создан для отслеживания заявок с определенным статусом.
 
