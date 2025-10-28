@@ -4,7 +4,7 @@ WITH loan AS (
                 id AS "КРЕДИТ - ИД",
                 bank_name AS "Банк",
                 partner_name AS "Партнер"
-            FROM online.fact_loan
+            FROM table_1
             WHERE partner_name LIKE 'FIT Service%%'
                 AND stage_code = 'attention'
         ),
@@ -14,10 +14,11 @@ WITH loan AS (
                 id AS "КРЕДИТ - ИД",
                 bank_name AS "Банк",
                 partner_name AS "Партнер"
-            FROM online.fact_credit
+            FROM table_2
             WHERE partner_name LIKE 'FIT Service%%'
                 AND stage_code = 'attention'
         )
         SELECT * FROM loan
         UNION ALL
+
         SELECT * FROM credit;
